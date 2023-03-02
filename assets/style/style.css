@@ -1,6 +1,7 @@
 :root {
   --section: #f1f3ff;
   --cta-btn: #5cb85f;
+  --cta-btn_hover: #62c165;
 }
 
 .bg-main {
@@ -9,6 +10,9 @@
 
 .btn-bcr {
   background-color: var(--cta-btn);
+}
+.btn-bcr:hover {
+  background-color: var(--cta-btn_hover)
 }
 .btn-cta_sewa {
   text-decoration: none;
@@ -144,14 +148,14 @@ img {
   color: #000;
 }
 
-.hero-banner{
+.hero-banner {
   margin-top: 100px;
 }
-.hero-banner .bg-dark_blue{
-  background-color: #0D28A6;
+.hero-banner .bg-dark_blue {
+  background-color: #0d28a6;
 }
 
-.hero-faq{
+.hero-faq {
   margin-top: 100px;
 }
 
@@ -159,16 +163,16 @@ img {
   padding: 64px 285px;
 }
 
-.border-accordion{
+.border-accordion {
   border-top: 1px solid red;
 }
 
-.hero-footer{
+.hero-footer {
   margin: 100px 0px;
 }
 
-.icon-footer img{
-  color: #0D28A6;
+.icon-footer img {
+  color: #0d28a6;
   width: 34px;
 }
 
@@ -214,20 +218,20 @@ img {
     margin-top: 10px;
     text-align: center;
   }
-  .hero-banner{
+  .hero-banner {
     margin-top: 60px;
     padding: 10px;
   }
-  .p-banner{
+  .p-banner {
     padding: 64px 58px;
   }
-  .hero-faq{
+  .hero-faq {
     margin-top: 60px;
   }
-  .hero-faq p{
+  .hero-faq p {
     font-size: 14px;
   }
-  .copy-right h6{
+  .copy-right h6 {
     width: 200px;
   }
 }
