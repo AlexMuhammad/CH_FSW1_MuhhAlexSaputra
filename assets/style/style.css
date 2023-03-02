@@ -178,6 +178,7 @@ img {
 
 @media only screen and (max-width: 576px) {
   .hero {
+    height: 100%;
     width: 100%;
     background-color: var(--section);
   }
@@ -186,8 +187,8 @@ img {
   }
   .hero-image img {
     width: 22rem;
-    /* height: ; */
-    bottom: 0;
+    position: absolute;
+    bottom: 53px;
   }
   .hero-why {
     margin-top: 60px;
