@@ -14,6 +14,9 @@
 .btn-bcr:hover {
   background-color: var(--cta-btn_hover);
 }
+.btn-bcr:focus {
+  background-color: var(--cta-btn_hover);
+}
 .btn-cta_sewa {
   text-decoration: none;
   color: #fff;
@@ -181,6 +184,9 @@ img {
     height: 100%;
     width: 100%;
     background-color: var(--section);
+  }
+  .btn-bcr:hover {
+    background-color: var(--cta-btn_hover);
   }
   .hero-description {
     width: 100%;
